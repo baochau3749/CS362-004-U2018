@@ -668,6 +668,11 @@ int adventurerCardEffect(struct gameState *state) {
 
   
   while(drawntreasure < 2) {
+    // Add the following in assignment-4, so that we don't run 
+    // into an infinite while loop
+    if ((state->deckCount[currentPlayer] == 0) && (state->discardCount[currentPlayer] == 0)) 
+      break;
+
     if (state->deckCount[currentPlayer] < 1) {//if the deck is empty we need to shuffle discard and add to deck
       shuffle(currentPlayer, state);
     }
