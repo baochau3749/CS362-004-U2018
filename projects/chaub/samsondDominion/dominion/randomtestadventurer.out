@@ -1,0 +1,115 @@
+
+
+Random test for Adventurer card:
+	test #0 = Adventurer Card failed.
+	test #1 = Adventurer Card failed.
+	test #2 = Adventurer Card failed.
+	test #3 = Adventurer Card failed.
+	test #4 = Adventurer Card failed.
+	test #5 = Adventurer Card failed.
+	test #6 = Adventurer Card failed.
+	test #7 = Adventurer Card failed.
+	test #8 = Adventurer Card failed.
+	test #9 = Adventurer Card failed.
+	test #10 = Adventurer Card failed.
+	test #11 = Adventurer Card failed.
+	test #12 = Adventurer Card failed.
+	test #13 = Adventurer Card failed.
+	test #14 = Adventurer Card failed.
+	test #15 = Adventurer Card failed.
+	test #16 = Adventurer Card failed.
+	test #17 = Adventurer Card failed.
+	test #18 = Adventurer Card failed.
+	test #19 = Adventurer Card failed.
+	test #20 = Adventurer Card failed.
+	test #21 = Adventurer Card failed.
+	test #22 = Adventurer Card failed.
+	test #23 = Adventurer Card failed.
+	test #24 = Adventurer Card failed.
+	test #25 = Adventurer Card failed.
+	test #26 = Adventurer Card failed.
+	test #27 = Adventurer Card failed.
+	test #28 = Adventurer Card failed.
+	test #29 = Adventurer Card failed.
+	test #30 = Adventurer Card failed.
+	test #31 = Adventurer Card failed.
+	test #32 = Adventurer Card failed.
+	test #33 = Adventurer Card failed.
+	test #34 = Adventurer Card failed.
+	test #35 = Adventurer Card failed.
+	test #36 = Adventurer Card failed.
+	test #37 = Adventurer Card failed.
+	test #38 = Adventurer Card failed.
+	test #39 = Adventurer Card failed.
+	test #40 = Adventurer Card failed.
+	test #41 = Adventurer Card failed.
+	test #42 = Adventurer Card failed.
+	test #43 = Adventurer Card failed.
+	test #44 = Adventurer Card failed.
+	test #45 = Adventurer Card failed.
+	test #46 = Adventurer Card failed.
+	test #47 = Adventurer Card failed.
+	test #48 = Adventurer Card failed.
+	test #49 = Adventurer Card failed.
+	test #50 = Adventurer Card failed.
+	test #51 = Adventurer Card failed.
+	test #52 = Adventurer Card failed.
+	test #53 = Adventurer Card failed.
+	test #54 = Adventurer Card failed.
+	test #55 = Adventurer Card failed.
+	test #56 = Adventurer Card failed.
+	test #57 = Adventurer Card failed.
+	test #58 = Adventurer Card failed.
+	test #59 = Adventurer Card failed.
+	test #60 = Adventurer Card failed.
+	test #61 = Adventurer Card failed.
+	test #62 = Adventurer Card failed.
+	test #63 = Adventurer Card failed.
+	test #64 = Adventurer Card failed.
+	test #65 = Adventurer Card failed.
+	test #66 = Adventurer Card failed.
+	test #67 = Adventurer Card failed.
+	test #68 = Adventurer Card failed.
+	test #69 = Adventurer Card failed.
+	test #70 = Adventurer Card failed.
+	test #71 = Adventurer Card failed.
+	test #72 = Adventurer Card failed.
+	test #73 = Adventurer Card failed.
+	test #74 = Adventurer Card failed.
+	test #75 = Adventurer Card failed.
+	test #76 = Adventurer Card failed.
+	test #77 = Adventurer Card failed.
+	test #78 = Adventurer Card failed.
+	test #79 = Adventurer Card failed.
+	test #80 = Adventurer Card failed.
+	test #81 = Adventurer Card failed.
+	test #82 = Adventurer Card failed.
+	test #83 = Adventurer Card failed.
+	test #84 = Adventurer Card failed.
+	test #85 = Adventurer Card failed.
+	test #86 = Adventurer Card failed.
+	test #87 = Adventurer Card failed.
+	test #88 = Adventurer Card failed.
+	test #89 = Adventurer Card failed.
+	test #90 = Adventurer Card failed.
+	test #91 = Adventurer Card failed.
+	test #92 = Adventurer Card failed.
+	test #93 = Adventurer Card failed.
+	test #94 = Adventurer Card failed.
+	test #95 = Adventurer Card failed.
+	test #96 = Adventurer Card failed.
+	test #97 = Adventurer Card failed.
+	test #98 = Adventurer Card failed.
+	test #99 = Adventurer Card failed.
+	For this assignment's purpose, only 100 failing messages are display.
+Number of test: 50000
+Number of test passed: 0
+Number of test failed: 50000
+
+File 'dominion.c'
+Lines executed:33.27% of 556
+Branches executed:37.83% of 415
+Taken at least once:24.58% of 415
+Calls executed:25.53% of 94
+Creating 'dominion.c.gcov'
+

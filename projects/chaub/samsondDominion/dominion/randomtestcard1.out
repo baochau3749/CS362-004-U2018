@@ -1,0 +1,14 @@
+
+
+Random test for Council Room card:
+Number of test: 50000
+Number of test passed: 50000
+Number of test failed: 0
+
+File 'dominion.c'
+Lines executed:33.27% of 556
+Branches executed:37.83% of 415
+Taken at least once:24.58% of 415
+Calls executed:25.53% of 94
+Creating 'dominion.c.gcov'
+

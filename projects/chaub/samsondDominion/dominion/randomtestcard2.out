@@ -1,0 +1,115 @@
+
+
+Random test for Remodel card:
+	test #3 = Remodel Card failed.
+	test #4 = Remodel Card failed.
+	test #14 = Remodel Card failed.
+	test #17 = Remodel Card failed.
+	test #21 = Remodel Card failed.
+	test #23 = Remodel Card failed.
+	test #26 = Remodel Card failed.
+	test #32 = Remodel Card failed.
+	test #34 = Remodel Card failed.
+	test #39 = Remodel Card failed.
+	test #49 = Remodel Card failed.
+	test #59 = Remodel Card failed.
+	test #66 = Remodel Card failed.
+	test #68 = Remodel Card failed.
+	test #70 = Remodel Card failed.
+	test #75 = Remodel Card failed.
+	test #88 = Remodel Card failed.
+	test #90 = Remodel Card failed.
+	test #95 = Remodel Card failed.
+	test #97 = Remodel Card failed.
+	test #106 = Remodel Card failed.
+	test #108 = Remodel Card failed.
+	test #111 = Remodel Card failed.
+	test #114 = Remodel Card failed.
+	test #115 = Remodel Card failed.
+	test #119 = Remodel Card failed.
+	test #124 = Remodel Card failed.
+	test #125 = Remodel Card failed.
+	test #132 = Remodel Card failed.
+	test #141 = Remodel Card failed.
+	test #148 = Remodel Card failed.
+	test #152 = Remodel Card failed.
+	test #157 = Remodel Card failed.
+	test #161 = Remodel Card failed.
+	test #169 = Remodel Card failed.
+	test #180 = Remodel Card failed.
+	test #181 = Remodel Card failed.
+	test #183 = Remodel Card failed.
+	test #188 = Remodel Card failed.
+	test #196 = Remodel Card failed.
+	test #197 = Remodel Card failed.
+	test #198 = Remodel Card failed.
+	test #202 = Remodel Card failed.
+	test #205 = Remodel Card failed.
+	test #206 = Remodel Card failed.
+	test #208 = Remodel Card failed.
+	test #212 = Remodel Card failed.
+	test #214 = Remodel Card failed.
+	test #236 = Remodel Card failed.
+	test #239 = Remodel Card failed.
+	test #249 = Remodel Card failed.
+	test #252 = Remodel Card failed.
+	test #253 = Remodel Card failed.
+	test #255 = Remodel Card failed.
+	test #259 = Remodel Card failed.
+	test #262 = Remodel Card failed.
+	test #274 = Remodel Card failed.
+	test #279 = Remodel Card failed.
+	test #280 = Remodel Card failed.
+	test #282 = Remodel Card failed.
+	test #283 = Remodel Card failed.
+	test #286 = Remodel Card failed.
+	test #299 = Remodel Card failed.
+	test #304 = Remodel Card failed.
+	test #305 = Remodel Card failed.
+	test #310 = Remodel Card failed.
+	test #311 = Remodel Card failed.
+	test #312 = Remodel Card failed.
+	test #317 = Remodel Card failed.
+	test #319 = Remodel Card failed.
+	test #320 = Remodel Card failed.
+	test #324 = Remodel Card failed.
+	test #327 = Remodel Card failed.
+	test #330 = Remodel Card failed.
+	test #342 = Remodel Card failed.
+	test #346 = Remodel Card failed.
+	test #349 = Remodel Card failed.
+	test #350 = Remodel Card failed.
+	test #351 = Remodel Card failed.
+	test #353 = Remodel Card failed.
+	test #357 = Remodel Card failed.
+	test #363 = Remodel Card failed.
+	test #365 = Remodel Card failed.
+	test #379 = Remodel Card failed.
+	test #382 = Remodel Card failed.
+	test #383 = Remodel Card failed.
+	test #384 = Remodel Card failed.
+	test #388 = Remodel Card failed.
+	test #391 = Remodel Card failed.
+	test #392 = Remodel Card failed.
+	test #395 = Remodel Card failed.
+	test #396 = Remodel Card failed.
+	test #402 = Remodel Card failed.
+	test #409 = Remodel Card failed.
+	test #410 = Remodel Card failed.
+	test #425 = Remodel Card failed.
+	test #435 = Remodel Card failed.
+	test #437 = Remodel Card failed.
+	test #441 = Remodel Card failed.
+	test #444 = Remodel Card failed.
+	For this assignment's purpose, only 100 failing messages are display.
+Number of test: 50000
+Number of test passed: 38653
+Number of test failed: 11347
+
+File 'dominion.c'
+Lines executed:37.95% of 556
+Branches executed:37.83% of 415
+Taken at least once:30.84% of 415
+Calls executed:25.53% of 94
+Creating 'dominion.c.gcov'
+

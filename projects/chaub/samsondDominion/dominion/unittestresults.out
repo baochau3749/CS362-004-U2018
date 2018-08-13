@@ -1,0 +1,180 @@
+Result for Dominion tests:
+
+unittest1.c:
+TESTING FUNCTION: drawCard(......)
+==================================
+
+drawCard(......) is called:
+   PASS - when player's deck loses a card.
+   PASS - when player's hand gains a card.
+   PASS - when player's hand receives card on top of his deck.
+   PASS - when deck is empty and discard cards are shuffled into deck.
+   PASS - when discard cards are used, discardCount resets to zero.
+   PASS - when there are no cards to draw, current hand has same number of cards.
+   PASS - when there are no cards to draw, cardDraw function returns -1.
+   TEST SUCCESSFULLY COMPLETED
+
+File 'dominion.c'
+Lines executed:18.71% of 556
+Branches executed:16.87% of 415
+Taken at least once:14.22% of 415
+Calls executed:8.51% of 94
+Creating 'dominion.c.gcov'
+
+
+unittest2.c:
+TESTING FUNCTION: gainCard(......)
+==================================
+
+gainCard(......) is called:
+   PASS - when supply pile is empty, gainCard function returns -1.
+   PASS - when supply pile is empty, player has same number of cards.
+   PASS - when gaining to discard and discard pile receives chosen card.
+   PASS - when gaining to deck and deck pile receives chosen card.
+   PASS - when gaining to hand and hand pile receives chosen card.
+   PASS - when there is no state change occurred for other players.
+   PASS - when supply pile of the chosen card loses one card.
+   TEST SUCCESSFULLY COMPLETED
+
+File 'dominion.c'
+Lines executed:21.40% of 556
+Branches executed:18.31% of 415
+Taken at least once:15.66% of 415
+Calls executed:9.57% of 94
+Creating 'dominion.c.gcov'
+
+
+unittest3.c:
+TESTING FUNCTION: discardCard(......)
+=====================================
+
+discardCard(......) is called:
+   PASS - when trashFlag = 0, the chosen card is sent to played cards area.
+   PASS - when trashFlag = 1, the chosen card is trashed.
+   PASS - when player's hand loses a card.
+   PASS - when there was only one card in hand, player's hand becomes empty.
+   PASS - when correctly discard the first card in hand.
+   PASS - when correctly discard the last card in hand.
+   PASS - when correctly discard a middle card in hand.
+   PASS - when player's deck pile is not affected.
+   PASS - when player's discard pile is not affected.
+   TEST SUCCESSFULLY COMPLETED
+
+File 'dominion.c'
+Lines executed:23.56% of 556
+Branches executed:19.76% of 415
+Taken at least once:16.87% of 415
+Calls executed:9.57% of 94
+Creating 'dominion.c.gcov'
+
+
+unittest4.c:
+TESTING FUNCTION: updateCoins(......)
+=====================================
+
+updateCoins(......) is called:
+   PASS - when copper treasure cards are updated correctly.
+   PASS - when silver treasure cards are updated correctly.
+   PASS - when gold treasure cards are updated correctly.
+   PASS - when hand with different types of treasure cards is updated correctly.
+   PASS - when hand with only bonus value is updated correctly.
+   PASS - when hand with no coin value is updated correctly.
+   TEST SUCCESSFULLY COMPLETED
+
+File 'dominion.c'
+Lines executed:23.92% of 556
+Branches executed:19.76% of 415
+Taken at least once:17.35% of 415
+Calls executed:9.57% of 94
+Creating 'dominion.c.gcov'
+
+
+cardtest1.c:
+TESTING CARD: Smithy
+====================
+
+Player plays the Smithy card:
+   PASS - when player's pile is empty and player does not receive any new cards.
+   PASS - when player's pile has only 1 card and player receives 1 card.
+   PASS - when player's pile has 3 cards and player receives 3 cards.
+   PASS - when player's pile has more than 3 cards and player receives 3 cards.
+ * FAIL - when the Smithy card is not sent to played cards area.
+   PASS - when there is no state change occurred for other players.
+   PASS - when there is no change in victory card and kingdom card piles.
+   TEST FAILED
+
+File 'dominion.c'
+Lines executed:26.44% of 556
+Branches executed:25.78% of 415
+Taken at least once:18.31% of 415
+Calls executed:13.83% of 94
+Creating 'dominion.c.gcov'
+
+
+cardtest2.c:
+TESTING CARD: Adventurer
+========================
+
+Player plays the Adventurer card:
+ * FAIL - when the Adventurer card is not sent to played card area.
+   PASS - when 2 treasure cards revealed, no more cards are revealed.
+ * FAIL - when revealed treasure cards are not added to player's hand.
+ * FAIL - when revealed, non-treasure cards are not added to discard pile.
+ * FAIL - when deck is empty, discard cards are not shuffled into deck.
+ * FAIL - when no treasure cards in piles, player's hand has unexpected changes.
+   PASS - when there is no state change occurred for other players.
+   PASS - when there is no change in victory card and kingdom card piles.
+   TEST FAILED
+
+File 'dominion.c'
+Lines executed:29.14% of 556
+Branches executed:28.19% of 415
+Taken at least once:20.72% of 415
+Calls executed:17.02% of 94
+Creating 'dominion.c.gcov'
+
+
+cardtest3.c:
+TESTING CARD: Council Room
+==========================
+
+Player plays the Council Room card:
+   PASS - when player's pile is empty and player does not receive any new cards.
+   PASS - when player's pile has only 1 card and player receives 1 card.
+   PASS - when player's pile has more than 4 cards and player receives 4 cards.
+   PASS - when player receives 1 additional buy.
+   PASS - when other players draw one card.
+   PASS - when the council room card is sent to played card area.
+   PASS - when there is no change in victory card and kingdom card piles.
+   TEST SUCCESSFULLY COMPLETED
+
+File 'dominion.c'
+Lines executed:30.58% of 556
+Branches executed:29.64% of 415
+Taken at least once:22.41% of 415
+Calls executed:20.21% of 94
+Creating 'dominion.c.gcov'
+
+
+cardtest4.c:
+TESTING CARD: Remodel
+=====================
+
+Player plays the Remodel card:
+ * FAIL - when value of gain card is too high, but function does not return -1.
+   PASS - when the Remodel card is sent to played cards area.
+   PASS - when the trash card is removed from player's possession.
+   PASS - when count of discard pile is increased by 1.
+   PASS - when the gain card is added to the discard pile.
+   PASS - when count of deck pile remains unchanged.
+   PASS - when supply pile of the gain card loses one card.
+   PASS - when there is no state change occurred for other players.
+   TEST FAILED
+
+File 'dominion.c'
+Lines executed:32.91% of 556
+Branches executed:37.83% of 415
+Taken at least once:24.10% of 415
+Calls executed:25.53% of 94
+Creating 'dominion.c.gcov'
+
